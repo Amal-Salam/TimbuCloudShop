@@ -31,11 +31,7 @@ function CardDetails(){
                 </div>
               </div>
             </div>
-            <div className='self-stretch px-6 py-3.5 bg-yellow-600 rounded-2xl justify-center items-center gap-2.5 inline-flex'>
-              <Link to='/' className="text-white text-lg font-bold font-['Lato']">
-                Pay now
-              </Link>
-            </div>
+           
           </div>
         </div>
       </div>
