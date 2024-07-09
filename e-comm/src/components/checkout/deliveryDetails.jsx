@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function DeliveryDetails() {
   const subtotal = useSelector(subtotalSelector);
   
-  const total = '$'+`${subtotal > 0 ? subtotal.toFixed(1) + 50 : 0}`;
+  const total = '$'+`${subtotal > 0 ? (subtotal +50).toFixed(2)  : 0}`;
 
   return (
     <div className='w-[730px] h-[513px] justify-between mt-7 items-start inline-flex'>
