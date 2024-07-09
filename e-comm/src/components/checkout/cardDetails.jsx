@@ -13,20 +13,32 @@ function CardDetails(){
           <div className='self-stretch grow shrink basis-0 flex-col justify-start items-start gap-6 flex'>
             <div className='self-stretch grow shrink basis-0 flex-col justify-between items-start flex'>
               <div className='self-stretch p-3 rounded-lg border border-stone-300 justify-start items-center gap-2.5 inline-flex'>
-                <input className="text-neutral-600 text-xs font-normal font-['lato']" placeholder='Card Number'/>
+                  <div className="self-stretch text-zinc-900 text-sm font-medium font-['Lato'] leading-normal">
+              Card Number
+            </div>
+                <input className="text-neutral-600 text-xs font-normal font-['lato']" />
                 
               </div>
               <div className='self-stretch p-3 rounded-lg border border-stone-300 justify-start items-center gap-2.5 inline-flex'>
-                <input className="text-neutral-600 text-xs font-normal font-['lato']"placeholder='Cardholder Name'/>
+                  <div className="self-stretch text-zinc-900 text-sm font-medium font-['Lato'] leading-normal">
+              Cardholder Name
+            </div>
+                <input className="text-neutral-600 text-xs font-normal font-['lato']"/>
                  
               </div>
               <div className='self-stretch justify-start items-center gap-3 inline-flex'>
                 <div className='grow shrink basis-0 h-[39px] p-3 rounded-lg border border-stone-300 justify-start items-center gap-2.5 flex'>
-                  <input className="text-neutral-600 text-xs font-normal font-['lato']" placeholder='MM/YY'/>
+                    <div className="self-stretch text-zinc-900 text-sm font-medium font-['Lato'] leading-normal">
+              MM/YY
+            </div>
+                  <input className="text-neutral-600 text-xs font-normal font-['lato']" />
                     
                 </div>
                 <div className='grow shrink basis-0 h-[39px] p-3 rounded-lg border border-stone-300 justify-start items-center gap-2.5 flex'>
-                  <input className="text-neutral-600 text-xs font-normal font-['lato']" placeholder='CVV'/>
+                    <div className="self-stretch text-zinc-900 text-sm font-medium font-['Lato'] leading-normal">
+             CVV
+            </div>
+                  <input className="text-neutral-600 text-xs font-normal font-['lato']" />
                     
                 </div>
               </div>
