@@ -66,7 +66,7 @@ const ProductDisplay=(props)=> {
               {name}
             </div>
             <div className="self-stretch text-zinc-800 text-2xl font-medium font-['Lato']">
-              {price}
+              ${price}
             </div>
           </div>
           <div className='w-[50px] h-[50px] p-[13px] bg-yellow-600 rounded-full justify-center items-center flex'>
