@@ -9,7 +9,7 @@ function CardDetails(){
               Card Details
             </div>
           </div>
-          <img className='w-[274px] h-[180px]' src={card} />
+{/*           <img className='w-[274px] h-[180px]' src={card} /> */}
           <div className='self-stretch grow shrink basis-0 flex-col justify-start items-start gap-6 flex'>
             <div className='self-stretch grow shrink basis-0 flex-col justify-between items-start flex'>
               <div className='self-stretch p-3 rounded-lg border border-stone-300 justify-start items-center gap-2.5 inline-flex'>
