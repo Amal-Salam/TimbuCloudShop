@@ -9,7 +9,7 @@ function CardDetails(){
               Payment
             </div>
           </div>
-{/*           <img className='w-[274px] h-[180px]' src={card} /> */
+{/*            <img className='w-[274px] h-[180px]' src={card} />  */}
           <div className='self-stretch grow shrink basis-0 flex-col justify-start items-start gap-6 flex'>
                <div className='w-[715px] h-[82.34px] my-5 justify-start items-center gap-6 inline-flex'>
           <div className='w-[345.52px]  flex-col justify-start items-start gap-2 inline-flex'>
